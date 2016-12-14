@@ -5,8 +5,8 @@ class DbUtil
 
  // DB Connection Parameters: Modify for specific project
  public $host = "cs.spu.edu";
- public $user = "quotesdb"; // or individual MySQL user name
- public $pwd = "quotesdb"; // with quotesdb permissions
+ public $user = "*******"; // or individual MySQL user name
+ public $pwd = "********"; // with quotesdb permissions
  public $defaultDB = "quotesdb";
  function __construct() // constructor - not needed for DbUtil
  { }
